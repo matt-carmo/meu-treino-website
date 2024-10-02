@@ -6,7 +6,7 @@ interface iFooter extends React.HTMLAttributes<HTMLElement> {
     className?: string;
 }
 
-export function Footer({children, ...props}: iFooter): JSX.Element {
+export function Footer({...props}: iFooter): JSX.Element {
     const currentYear = new Date().getFullYear();
     
     return (
