@@ -1,6 +1,6 @@
 'use client'
 import Link from "next/link";
-import React, { Context } from "react";
+import React  from "react";
 
 interface iFooter extends React.HTMLAttributes<HTMLElement> {
     className?: string;
